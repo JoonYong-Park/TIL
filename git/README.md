@@ -13,3 +13,7 @@
     toptal의 gitignore generator을 사용해서 운영체제, 개발환경, 사용하는 프로그래밍 언어에 맞는 gitignore파일을 생성할 수 있음
     
     이외에도 vs code에 e=Extension을 설치해서 gitignore파일을 관리하기도 함
+
+## 브랜치
+- branch: (영한사전 정의)나무가지
+- (일반적으로)일감을 해결할 때 일감에 해당하는 이슈에 해당하는 브랜치를 생성함
