@@ -4,7 +4,19 @@
 - 스테이징 영역은 커밋 전, 커밋에 포함시킬 파일들만 임시로 올려두는 영역
 - stage: 무대에 올리다.
 
-- '.gitignore' 파일
-    - 커밋에 포함되면 안되는 파일들을 관리하는 파일
-    - 저장소마다 1개씩 세팅되어있는게 일반적임
-    - Topta1의 gitignore generator를 사용해서 운영체제, 개발 환경(IDE), 사용하는 프로그래밍 언어에 맞는 gitignore 파일을 생성할 수 있음
+- .gitignore파일
+    
+    커밋에 포함되면 안되는 파일들을 관리하는 파일
+    
+    저장소마다 1개씩 세팅되어있는게 일반적임
+    
+    toptal의 gitignore generator을 사용해서 운영체제, 개발환경, 사용하는 프로그래밍 언어에 맞는 gitignore파일을 생성할 수 있음
+    
+    이외에도 vs code에 e=Extension을 설치해서 gitignore파일을 관리하기도 함
+
+### 명령어
+- 브랜치 생성: `git branch 브랜치명`
+- 생성된 브랜치 확인: `git branch`
+- 브랜치 전환
+  1. `git swtich 브랜치명`
+  2. `git checkout 브랜치명`
