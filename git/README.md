@@ -14,6 +14,11 @@
     
     이외에도 vs code에 e=Extension을 설치해서 gitignore파일을 관리하기도 함
 
+### 브랜치 병합
+
+- 이슈에 해당하는 브랜치에서 작업을 끝내고 주요 브랜치인 `main`, `development`등에 병합 요청을 하게된다.
+- 병합 요청이 승인이 되면 내가 작업하는 브랜치가 주요 브랜치에 병합된다.
+
 ### 명령어
 - 브랜치 생성: `git branch 브랜치명`
 - 생성된 브랜치 확인: `git branch`
@@ -21,4 +26,6 @@
   1. `git swtich 브랜치명`
   2. `git checkout 브랜치명`
 - 브랜치 생성과 전환
-  1. `git checkout -b 브랜치명` 
+  1. `git checkout -b 브랜치명`  
+- 브랜치 병합: `git merge`
+  - 주의: `A` 브랜치를 `B`브랜치로 병합하려고 할 때, **
